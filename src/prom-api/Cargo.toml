@@ -5,7 +5,6 @@ edition.workspace = true
 
 [dependencies]
 btcnode-metrics = { path = "../btcnode-metrics" }
-btcnode-metrics-gatherer = { path = "../btcnode-metrics-gatherer" }
 axum.workspace = true
 tokio.workspace = true
 prometheus.workspace = true

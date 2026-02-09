@@ -233,15 +233,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "btcnode-metrics-gatherer"
-version = "0.1.0"
-dependencies = [
- "btcnode-metrics",
- "prometheus",
- "tracing",
-]
-
-[[package]]
 name = "bytes"
 version = "1.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -699,7 +690,6 @@ dependencies = [
  "anyhow",
  "axum",
  "btcnode-metrics",
- "btcnode-metrics-gatherer",
  "clap",
  "prometheus",
  "serde",

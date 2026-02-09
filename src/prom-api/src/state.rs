@@ -1,7 +1,6 @@
 use std::sync::Arc;
 
-use btcnode_metrics::BitcoinNode;
-use btcnode_metrics_gatherer::MetricsService;
+use btcnode_metrics::{BitcoinNode, MetricsService};
 
 pub struct AppState {
     pub service: Arc<MetricsService<BitcoinNode>>,

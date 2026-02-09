@@ -1,7 +1,6 @@
 [workspace]
 members = [
     "src/btcnode-metrics",
-    "src/btcnode-metrics-gatherer",
     "src/prom-api",
 ]
 resolver = "3"

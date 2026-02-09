@@ -1,4 +1,4 @@
-use btcnode_metrics::{MetricsCollector, NodeClient};
+use crate::{MetricsCollector, NodeClient};
 use prometheus::Encoder;
 use prometheus::TextEncoder;
 

@@ -11,8 +11,7 @@ use tokio::net::TcpListener;
 use tracing::info;
 use tracing_subscriber::EnvFilter;
 
-use btcnode_metrics::{AppConfig, BitcoinMetrics, BitcoinNode, MetricsCollector};
-use btcnode_metrics_gatherer::MetricsService;
+use btcnode_metrics::{AppConfig, BitcoinMetrics, BitcoinNode, MetricsCollector, MetricsService};
 
 use crate::state::AppState;
 
