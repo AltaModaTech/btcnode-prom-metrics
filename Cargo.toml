@@ -1,14 +1,14 @@
 [workspace]
 members = [
     "src/btcnode-metrics",
-    "src/prom-api",
+    "src/btcnode-prom-metrics",
 ]
 resolver = "3"
 name = "btcnode-prom-metrics"
 
 [workspace.package]
 edition = "2024"
-version = "0.1.0"
+version = "0.2.0"
 description = "The Bitcoin node metrics exporter for Prometheus built on the Rust Bitcoin Community's corepc-client crate."
 license-file = "LICENSE"
 homepage = "https://github.com/AltaModaTech/btcnode-prom-metrics"

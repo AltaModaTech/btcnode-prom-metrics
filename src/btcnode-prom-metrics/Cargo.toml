@@ -1,5 +1,5 @@
 [package]
-name = "prom-api"
+name = "btcnode-prom-metrics"
 description.workspace = true
 license-file.workspace = true
 homepage.workspace = true

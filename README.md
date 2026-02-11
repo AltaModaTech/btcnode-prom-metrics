@@ -15,5 +15,5 @@ The Rust Bitcoin Community's public repository for this crate is at [corepc-clie
 
 This repository's code is separated into:
 
-- _prom-api_ implements the API for Prometheus to call for gathering metrics.
+- _btcnode-prom-metrics_ implements the API for Prometheus to call for gathering metrics.
 - _btcnode-metrics_ gathers metrics from the Bitcoin node and transforms them into Prometheus format.
