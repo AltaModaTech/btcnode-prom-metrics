@@ -14,7 +14,7 @@ license-file = "LICENSE"
 homepage = "https://github.com/AltaModaTech/btcnode-prom-metrics"
 repository = "https://github.com/AltaModaTech/btcnode-prom-metrics"
 readme = "README.md"
-keywords = ["bitcoin, prometheus, metrics, corepc-client, rust"]
+keywords = ["bitcoin", "prometheus", "metrics"]
 
 [workspace.dependencies]
 corepc-client = { version = "0.10", features = ["client-sync"] }
