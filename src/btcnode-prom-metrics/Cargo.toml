@@ -10,7 +10,7 @@ version.workspace = true
 edition.workspace = true
 
 [dependencies]
-btcnode-metrics = { path = "../btcnode-metrics", version = "0.1.0" }
+btcnode-metrics = { path = "../btcnode-metrics", version = "^0.2.0" }
 axum.workspace = true
 tokio.workspace = true
 prometheus.workspace = true
