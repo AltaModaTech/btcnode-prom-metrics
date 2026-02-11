@@ -13,7 +13,7 @@ description = "The Bitcoin node metrics exporter for Prometheus built on the Rus
 license-file = "LICENSE"
 homepage = "https://github.com/AltaModaTech/btcnode-prom-metrics"
 repository = "https://github.com/AltaModaTech/btcnode-prom-metrics"
-readme = "README"
+readme = "README.md"
 keywords = ["bitcoin, prometheus, metrics, corepc-client, rust"]
 
 [workspace.dependencies]
