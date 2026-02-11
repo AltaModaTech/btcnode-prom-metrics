@@ -1,6 +1,6 @@
 [package]
 name = "btcnode-metrics"
-description.workspace = true
+description = "Gathers Bitcoin node metrics and transforms to Prometheus format."
 license-file.workspace = true
 homepage.workspace = true
 repository.workspace = true

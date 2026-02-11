@@ -1,5 +1,5 @@
 [package]
-name = "prom-api"
+name = "btcnode-prom-metrics"
 description.workspace = true
 license-file.workspace = true
 homepage.workspace = true
@@ -10,7 +10,7 @@ version.workspace = true
 edition.workspace = true
 
 [dependencies]
-btcnode-metrics = { path = "../btcnode-metrics", version = "0.1.0" }
+btcnode-metrics = { path = "../btcnode-metrics", version = "^1.0.0" }
 axum.workspace = true
 tokio.workspace = true
 prometheus.workspace = true

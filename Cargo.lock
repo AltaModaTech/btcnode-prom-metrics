@@ -222,7 +222,7 @@ checksum = "812e12b5285cc515a9c72a5c1d3b6d46a19dac5acfef5265968c166106e31dd3"
 
 [[package]]
 name = "btcnode-metrics"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "corepc-client",
  "prometheus",
@@ -230,6 +230,22 @@ dependencies = [
  "thiserror 2.0.18",
  "toml",
  "tracing",
+]
+
+[[package]]
+name = "btcnode-prom-metrics"
+version = "1.0.0"
+dependencies = [
+ "anyhow",
+ "axum",
+ "btcnode-metrics",
+ "clap",
+ "prometheus",
+ "serde",
+ "tokio",
+ "toml",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
@@ -681,22 +697,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934"
 dependencies = [
  "unicode-ident",
-]
-
-[[package]]
-name = "prom-api"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "axum",
- "btcnode-metrics",
- "clap",
- "prometheus",
- "serde",
- "tokio",
- "toml",
- "tracing",
- "tracing-subscriber",
 ]
 
 [[package]]
