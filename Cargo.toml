@@ -4,9 +4,17 @@ members = [
     "src/prom-api",
 ]
 resolver = "3"
+name = "btcnode-prom-metrics"
 
 [workspace.package]
 edition = "2024"
+version = "0.1.0"
+description = "The Bitcoin node metrics exporter for Prometheus built on the Rust Bitcoin Community's corepc-client crate."
+license-file = "LICENSE"
+homepage = "https://github.com/AltaModaTech/btcnode-prom-metrics"
+repository = "https://github.com/AltaModaTech/btcnode-prom-metrics"
+readme = "README.md"
+keywords = ["bitcoin", "prometheus", "metrics"]
 
 [workspace.dependencies]
 corepc-client = { version = "0.10", features = ["client-sync"] }
