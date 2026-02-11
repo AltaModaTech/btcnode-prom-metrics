@@ -2,7 +2,9 @@ name: Rust CI
 
 on:
   push:
-    branches: [ "*", "!main" ]
+    branches:
+      - '*'
+      - '!main'
     paths-ignore:
       - '**/*.md'
   pull_request:
